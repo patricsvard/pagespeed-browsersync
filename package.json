@@ -1,0 +1,16 @@
+{
+  "name": "pagespeedrunner",
+  "version": "0.1.0",
+  "description": "",
+  "main": "pagespeed.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "psi": "^2.0.4"
+  }
+}
