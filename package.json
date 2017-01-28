@@ -5,7 +5,8 @@
   "main": "pagespeed.js",
   "directories": {},
   "scripts": {
-    "speed": ""
+    "speed-local": "node pagespeed.js --server=true --tunnel=true --path=test",
+    "speed-external": "node pagespeed.js http://www.google.se"
   },
   "author": "",
   "license": "ISC",

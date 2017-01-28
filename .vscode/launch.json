@@ -9,7 +9,13 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceRoot}\\pagespeed.js",
-            "cwd": "${workspaceRoot}"
+            "cwd": "${workspaceRoot}",
+            "args": [
+                "http://www.google.se",
+                "--server=true",
+                "--tunnel=true",
+                "--path=test"
+            ]
         },
         {
             "type": "node",
